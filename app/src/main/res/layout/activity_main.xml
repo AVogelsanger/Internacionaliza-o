@@ -1,0 +1,58 @@
+<LinearLayout
+    android:background="@color/amarelo"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/FIAPLabels"
+        android:text="@string/nome" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNome"/>
+
+    <TextView
+        style="@style/FIAPLabels"
+        android:text="@string/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEmail"/>
+
+    <TextView
+        style="@style/FIAPLabels"
+        android:text="@string/celular"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCelular"/>
+
+    <TextView
+        style="@style/FIAPLabels"
+        android:text="@string/endereco"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEndereco"/>
+
+    <TextView
+        style="@style/FIAPLabels"
+        android:text="@string/cep"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCEP"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"/>
+
+</LinearLayout>
